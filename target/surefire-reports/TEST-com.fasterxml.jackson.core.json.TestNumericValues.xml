@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="13" failures="0" name="com.fasterxml.jackson.core.json.TestNumericValues" time="0.044" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2024.1.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="22.0.1+8-16"/>
+    <property name="sun.boot.library.path" value="C:\Users\ashwi\.jdks\openjdk-22.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\ashwi\Downloads\SpringProj\jackson-core"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\ashwi\Downloads\SpringProj\jackson-core"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="22.0.1+8-16"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ashwi\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="C:\Users\ashwi\.jdks\openjdk-22.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\ashwi\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.2\bin;;."/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.2\plugins\maven\lib\maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="66.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\ashwi"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="22"/>
+    <property name="user.name" value="ashwi"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.7.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2024.1.2 test"/>
+    <property name="java.home" value="C:\Users\ashwi\.jdks\openjdk-22.0.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="22.0.1"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="UTF-8"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="UTF-8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.fasterxml.jackson.core.json.TestNumericValues" name="testBigDecimalRange" time="0.005"/>
+  <testcase classname="com.fasterxml.jackson.core.json.TestNumericValues" name="testInvalidBooleanAccess" time="0.001"/>
+  <testcase classname="com.fasterxml.jackson.core.json.TestNumericValues" name="testInvalidIntAccess" time="0.001"/>
+  <testcase classname="com.fasterxml.jackson.core.json.TestNumericValues" name="testBigNumbers" time="0.002"/>
+  <testcase classname="com.fasterxml.jackson.core.json.TestNumericValues" name="testSimpleBoolean" time="0.002"/>
+  <testcase classname="com.fasterxml.jackson.core.json.TestNumericValues" name="testSimpleLong" time="0.001"/>
+  <testcase classname="com.fasterxml.jackson.core.json.TestNumericValues" name="testLongRange" time="0"/>
+  <testcase classname="com.fasterxml.jackson.core.json.TestNumericValues" name="testLongOverflow" time="0.002"/>
+  <testcase classname="com.fasterxml.jackson.core.json.TestNumericValues" name="testNumbers" time="0.001"/>
+  <testcase classname="com.fasterxml.jackson.core.json.TestNumericValues" name="testSimpleInt" time="0"/>
+  <testcase classname="com.fasterxml.jackson.core.json.TestNumericValues" name="testIntRange" time="0.001"/>
+  <testcase classname="com.fasterxml.jackson.core.json.TestNumericValues" name="testSimpleDouble" time="0.002"/>
+  <testcase classname="com.fasterxml.jackson.core.json.TestNumericValues" name="testParsingOfLongerSequences" time="0.026"/>
+</testsuite>

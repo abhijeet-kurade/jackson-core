@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1719211612927
+Build-Jdk: 22.0.1
+Built-By: ashwi
+Bundle-Description: Core Jackson abstractions, basic JSON streaming API 
+ implementation
+Bundle-DocURL: http://wiki.fasterxml.com/JacksonHome
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt, http://w
+ ww.gnu.org/licenses/lgpl-2.1.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Jackson-core
+Bundle-SymbolicName: com.fasterxml.jackson.core.jackson-core
+Bundle-Vendor: FasterXML
+Bundle-Version: 2.3.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.fasterxml.jackson.core;version="2.3.0.SNAPSHOT",com.
+ fasterxml.jackson.core.format;version="2.3.0.SNAPSHOT",com.fasterxml.ja
+ ckson.core.io;version="2.3.0.SNAPSHOT",com.fasterxml.jackson.core.json;
+ version="2.3.0.SNAPSHOT",com.fasterxml.jackson.core.util;version="2.3.0
+ .SNAPSHOT",com.fasterxml.jackson.core.type;version="2.3.0.SNAPSHOT",com
+ .fasterxml.jackson.core.base;version="2.3.0.SNAPSHOT",com.fasterxml.jac
+ kson.core.sym;version="2.3.0.SNAPSHOT"
+Include-Resource: META-INF/LICENSE=src/main/resources/META-INF/LICENSE,M
+ ETA-INF/NOTICE=src/main/resources/META-INF/NOTICE,META-INF/services/com
+ .fasterxml.jackson.core.JsonFactory=src/main/resources/META-INF/service
+ s/com.fasterxml.jackson.core.JsonFactory
+Tool: Bnd-1.50.0
